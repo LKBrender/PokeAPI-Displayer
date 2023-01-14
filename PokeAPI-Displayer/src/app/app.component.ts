@@ -7,13 +7,13 @@ import { PokemonClient } from 'pokenode-ts';
 })
 export class AppComponent {
   title = 'PokeAPI-Displayer';
-
-  (async () => {
-    const api = new PokemonClient();
-
-    await api
-      .getPokemonByName(`PokeList`)
-      .then((data) => console.log(data.name))
-      .catch((error) => console.error(error));
-  })();
 }
+
+(async () => {
+  const api = new PokemonClient();
+
+  await api
+    .getPokemonByName(`PokeList`)
+    .then((data) => console.log(data.name))
+    .catch((error) => console.error(error));
+})();
