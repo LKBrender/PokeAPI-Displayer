@@ -7,8 +7,10 @@ h1 {
   color: #ffffff;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-margin-bottom: 0px;
-  background-color: rgb(201, 1, 1);
+  margin-bottom: 0px;
+  margin-top: 1px;
+  background-color: #FF1C1C;
+  text-shadow: #000000 2px 2px 2px;
 }
 
 h2 {
@@ -30,13 +32,15 @@ h6{
   font-family:'Times New Roman', Times, serif;
   font-size: 15px;
   margin-top: 0px;
+  margin-bottom: 0px;
   text-align: center;
-  background-color: rgb(201, 1, 1);
+  background-color: #FF1C1C;
+  text-shadow: #000000 2px 2px 2px;
+
 
 }
-
-form
-{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
+#spacer{
+  background-color:#000000;
+  margin-top: 0px;
+  font-size: 5px;
 }
